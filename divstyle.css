@@ -1,0 +1,217 @@
+body{
+    background:#141618;
+    color:white;
+    font-family:'Mate SC', serif;
+    font-size: 50px;
+    overflow-x: hidden;
+    margin:line 0;
+    padding:0;
+    }
+
+.base {position:relative;
+        Display:block;
+        top:100px;
+        left:0px;
+        text-align:center;
+        margin: 0 auto;
+        max-width:900px;
+        min-width:550px;
+        width:100%;
+        }
+
+.topnav {
+    overflow: hidden;
+    font-family: 'Caveat Brush', cursive;
+    background-color:#1c2023;						
+    z-index: 3;
+    position: fixed;
+    
+    top:0px;
+    height: 120px;
+    width: 100%;
+    }
+    
+.topnav a {
+    float: right;        
+    display: block;
+    height:60px;
+    color: #746f7a;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 40px;
+    line-height: 60px;
+    }
+    
+.topnav a:hover {
+    color: white;
+    }
+            
+.topnav .icon {
+    display: none;
+    font-size:50px;
+    }
+#parallax{
+    position:relative;
+    top:95px;
+    width:100%;
+    height: 100vh;
+    background-image: url(silbg.png), url(treesbg.png), url(moonbg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position: 50% 50%;
+    }
+    
+h1  {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:.5;
+    }       
+
+.header h2{
+    position:relative;
+    font-family: 'Caveat Brush', cursive;
+    margin: 0 auto;
+    top:160px;
+    text-align:center ;
+    width: 900px;
+    }
+
+.box {
+    position:relative;
+    display:block;
+    background:#1c2023;
+    font-family: 'Caveat Brush', cursive;
+    top:60px;
+    max-width: 900px;
+    min-width: 550px;
+    height: 400px;
+    width: 100%; 
+    margin: 0px auto;   
+    text-align: center;
+    }
+
+.box2 {
+    position:relative;
+    display:block;
+    background:#1c2023;
+    font-family: 'Caveat Brush', cursive;
+    top: 120px;
+	max-width: 900px;
+    min-width: 550px;
+    height: 400px;
+    width: 100%; 
+	margin: 0px auto;   
+	text-align: center;
+	}
+
+.box2 img{
+    position: relative;
+    top: -100px;
+    }
+
+.parastyle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    margin:30px;
+    }
+
+.sidebar {
+    position:absolute;
+    background:#141618;
+    top:120px;
+    left:0px;
+	max-width: 120px;
+    min-width: 30px;
+    width: 100%; 
+    height: 900px;
+	margin: 0 auto;   
+	text-align: center;
+	}
+
+.sidebar2 {
+    position:absolute;
+    background:#141618;
+    right: 0;
+    top:120px;
+    float:right;
+    clear: right;
+    max-width: 120px;
+    min-width: 30px;
+    width: 100%; 
+    height: 900px;
+    margin: 0 auto;  
+    text-align: center;
+    }
+        
+.sidebar3 {
+    position:absolute;
+    background:#141618;
+    top:1000px;
+    min-width: 900px;
+    width: 100%; 
+    height: 60px;
+    margin: 0 auto;   
+    text-align: center;
+    }
+    
+.maintitle {
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 4;
+    margin: 0 auto;
+    }
+
+.flex-container {
+    position: relative;
+    width:100%; 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #d18f2c;
+    gap: 30px;
+    }
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 0 auto;
+    }
+
+.flex-container2 {
+    position: relative;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    padding:0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #141618;
+    gap: 0px;
+    }
+    
+.flex-container2 > div {
+    background-color: #141618;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    }
+
+.fade:hover {
+    opacity: 0.7;
+    }  
+
+.images:hover{
+    
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    transform: scale(2.00);
+    -ms-transform: scale(2.00);
+    -webkit-transform: scale(2.00);
+    }
